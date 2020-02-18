@@ -1,6 +1,6 @@
 name: pinch_zoom_image_example
 description: Demonstrates how to use the pinch_zoom_image plugin.
-publish_to: 'none'
+publish_to: "none"
 
 environment:
   sdk: ">=2.0.0-dev.68.0 <3.0.0"
@@ -14,9 +14,9 @@ dev_dependencies:
     sdk: flutter
   pinch_zoom_image:
     path: ../
-  cached_network_image: ^0.5.0
+  cached_network_image: ^2.0.0
 
 flutter:
   uses-material-design: true
   assets:
-   - images/camel.jpg
+    - images/camel.jpg
